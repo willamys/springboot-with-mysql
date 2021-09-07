@@ -14,5 +14,5 @@ The API is Running at [http://localhost:4200](http://localhost:4200), but to use
 
 ## Frontend
 
-You can access the code in the repo. [repo](https://github.com/willamys/spring-boot-ui-react).
+You can access the code in the [repo](https://github.com/willamys/spring-boot-ui-react).
 Clone the repo and follow the stpes to build de app.
