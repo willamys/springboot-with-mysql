@@ -1,0 +1,13 @@
+configurar jpa no resources
+
+compilar projeto java e gerar o jar para o docker
+mvn clean install
+
+iniciar o serviço docker
+docker-machine start default
+docker-machine env
+
+compilar a imagem e sempre que rodar recriar com as mudanças realizadas
+docker-compose up --build --force-recreate
+
+testar usando o ip 192.168.99.100 do docker toolbox
